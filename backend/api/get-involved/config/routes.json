@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/get-involved",
+      "handler": "get-involved.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/get-involved",
+      "handler": "get-involved.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/get-involved",
+      "handler": "get-involved.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

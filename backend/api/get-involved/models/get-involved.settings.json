@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "get_involveds",
+  "info": {
+    "name": "GetInvolved",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "IncentiveCashHeading": {
+      "type": "string"
+    },
+    "NumberHeading": {
+      "type": "string"
+    },
+    "IncentiveCashText": {
+      "type": "string"
+    },
+    "NumberText": {
+      "type": "text"
+    },
+    "NodeHeading": {
+      "type": "string"
+    },
+    "NodeSubheading": {
+      "type": "text"
+    },
+    "NodeText": {
+      "type": "string"
+    },
+    "MillionHeading": {
+      "type": "string"
+    },
+    "MillionSubheading": {
+      "type": "text"
+    },
+    "MillionText": {
+      "type": "string"
+    },
+    "SecureHeading": {
+      "type": "string"
+    },
+    "SecureSubheading": {
+      "type": "string"
+    },
+    "SecureText": {
+      "type": "text"
+    }
+  }
+}
